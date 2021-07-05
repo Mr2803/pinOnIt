@@ -1,4 +1,4 @@
-# Google Maps in React Demo
+# PinOnIt
 
 This project represents a small MERN APP which I called **PinOnIt**.
 On the client side, the user displays a map on which he can insert, if registered, a pin and write a specific review of a place he has visited. The pins of the logged in user have a different color than the other pins.
