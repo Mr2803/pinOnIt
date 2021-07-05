@@ -1,0 +1,198 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* CARD */
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+label {
+  width: max-content;
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 0.5px solid tomato;
+  margin: 3px 0;
+}
+
+.desc {
+  font-size: 14px;
+}
+
+.star {
+  color: goldenrod;
+}
+
+.username {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.search {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  z-index: 10;
+}
+
+.search input {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.locate {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  z-index: 10;
+}
+.locate img {
+  width: 30px;
+  cursor: pointer;
+}
+
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: tomato;
+  cursor: pointer;
+}
+
+.button-container,
+.logout {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.button {
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.logout {
+  background-color: tomato;
+}
+
+.login {
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register {
+  background-color: slateblue;
+}
+
+.registerContainer,
+.loginContainer {
+  width: 300px;
+  height: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(92, 92, 92, 0.885);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: tomato;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.registerBtn,
+.loginBtn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: slateblue;
+  color: white;
+}
+
+.loginBtn {
+  background-color: teal;
+}
+
+.success {
+  color: rgb(75, 255, 75);
+  font-size: 12px;
+  text-align: center;
+}
+.failure {
+  color: rgb(248, 49, 75);
+  font-size: 12px;
+  text-align: center;
+}
+
+.registerCancel,
+.loginCancel {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: white;
+  cursor: pointer;
+}
