@@ -4,7 +4,15 @@ This project represents a small MERN APP which I called **PinOnIt**.
 On the client side, the user displays a map on which he can insert, if registered, a pin and write a specific review of a place he has visited. The pins of the logged in user have a different color than the other pins.
 The user can search for a specific place from the searchbar (created with the help of google bees) and will be returned to the chosen place.
 
-## API Keys
+
+## Server Side
+As for the server instead. You will need to create a new access for the Mongo db.
+Create an env file inside the backend folder using the environment variable `MONGO_URL` and assigned your mongodb+srv value 
+(
+mongodb+srv://<YOUR_USERNAME>:<YOUR_PASSWORD>@cluster0.zukns.mongodb.net/<YOUR_DB>?retryWrites=true&w=majority
+)
+
+## API Keys Client
 
 For this demo to work, please create a Google Map API Key (with google platform), and ensure that the two services below are enabled... otherwise it won't work! This API key must be in the environment variable `REACT_APP_GOOGLE_MAP`.
 
