@@ -19,3 +19,7 @@ For this demo to work, please create a Google Map API Key (with google platform)
 - Maps JavaScript API
 - Places API
 - Geocoding API
+
+
+## Preview
+![pinOnIt](https://user-images.githubusercontent.com/55139220/124463430-2b38b600-dd93-11eb-86a1-6538d1ee0ad9.JPG)
