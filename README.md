@@ -7,14 +7,14 @@ The user can search for a specific place from the searchbar (created with the he
 
 ## Server Side
 As for the server instead. You will need to create a new access for the Mongo db.
-Create an env file inside the backend folder using the environment variable `MONGO_URL` and assigned your mongodb+srv value 
-(
+Create an env file inside the backend folder using the environment variable `MONGO_URL` and assigned your mongodb+srv value <br/>
+
 mongodb+srv://<YOUR_USERNAME>:<YOUR_PASSWORD>@cluster0.zukns.mongodb.net/<YOUR_DB>?retryWrites=true&w=majority
-)
+
 
 ## API Keys Client
 
-For this demo to work, please create a Google Map API Key (with google platform), and ensure that the two services below are enabled... otherwise it won't work! This API key must be in the environment variable `REACT_APP_GOOGLE_MAP`.
+For this demo to work, please create a Google Map API Key (with google platform), and ensure that the two services below are enabled... otherwise it won't work! This API key must be in the environment variable in frontend folder .env file with name `REACT_APP_GOOGLE_MAP`.
 
 - Maps JavaScript API
 - Places API
